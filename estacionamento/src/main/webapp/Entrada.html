@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aprendendo Servlet</title>
+<link rel="stylesheet"
+	href="resources/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	<link rel="stylesheet"
+	href="resources/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Trabalho estacionamento</h3><br>
+				<a href="index.html" class="btn btn-default">Home</a>
+				
+			</div>
+			<div class="panel-body">
+				<form class="form-horizontal" method="post" action="geraTicket">
+				  <div class="form-group">
+				    <label for="inputPlaca" class="col-sm-1 control-label" >Placa</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" name="placa" id="inputPlaca" placeholder="Placa" required="required" size="8" maxlength="8">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputMarca" class="col-sm-1 control-label" >Marca</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" name="marca" id="inputMarca" placeholder="Marca" required="required" size="15" maxlength="15">
+				    </div>
+				  </div>
+  
+				 <div class="form-group">
+				    <label for="inputModelo" class="col-sm-1 control-label" >Modelo</label>
+				    <div class="col-sm-10">
+				      <input type="text" class="form-control" name="modelo" id="inputModelo" placeholder="Modelo" required="required" size="15" maxlength="15">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="col-sm-offset-1 col-sm-10">
+				      <button type="submit" class="btn btn-default">Enviar</button>
+				    </div>
+				  </div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
